@@ -83,7 +83,7 @@ $(document).ready(function(){
 	function map() {
 		var myLatlng = new google.maps.LatLng(35.658819, 139.697662);
 		var mapOptions = {
-			zoom: 14,
+			zoom: 15,
 			center: myLatlng,
 			mapTypeId: google.maps.MapTypeId.ROADMAP,
 			scrollwheel: false,
