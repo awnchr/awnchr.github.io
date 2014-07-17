@@ -57,8 +57,10 @@
 			</div>
 		</nav>
 
+		<div class="spacer"></div>
+		<div class="spacer"></div>
+
 		<!-- SITE COVER-->
-		<div class="topspacer"></div>
 		<div id="slider">
 			<div class="container">
 				<div class="col-md-12">
@@ -73,8 +75,8 @@
 		<div class="bottomspacer"></div>
 
 		<!-- STATEMENT -->
-		<div class="topspacer" id="statement"></div>
-		<div class="content-block">
+		<div class="topspacer"></div>
+		<div class="content-block" id="statement">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -95,8 +97,8 @@
 
 
 		<!-- SERVICE -->
-		<div class="topspacer" id="service"></div>
-		<div class="content-block">
+		<div class="topspacer"></div>
+		<div class="content-block" id="service">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -142,8 +144,8 @@
 
 
 		<!-- COMPANY PROFILE-->
-		<div class="topspacer" id="company"></div>
-		<div class="content-block">
+		<div class="topspacer"></div>
+		<div class="content-block" id="company">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -168,7 +170,7 @@
 							<div class="th">資本金</div>
 							<div class="td">1,000,000円</div>
 						</div>
-						<div class="tr"  id="access">
+						<div class="tr" id="access">
 							<div class="th">所在地</div>
 							<div class="td">〒141-0021<br />東京都渋谷区<br />道玄坂2丁目10番12号<br />新大宗ビル3号館 8階 Startup DOJO内</div>
 						</div>
@@ -229,10 +231,11 @@
 		<script src="js/custom.js"></script>
 		<script type="text/javascript">
 		  $('a[href^=#]').click(function(){
+			var headH = 100;
     		var speed = 800;
     		var href= $(this).attr("href");
     		var target = $(href == "#" || href == "" ? 'html' : href);
-    		var position = target.offset().top;
+    		var position = target.offset().top-headH;
     		$("html, body").animate({scrollTop:position}, speed, "swing");
     		return false;
   			});
