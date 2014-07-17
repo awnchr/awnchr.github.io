@@ -52,7 +52,11 @@ p {
 .spacer{
 	padding:20px;
 }
-
+.topspacer{
+	padding:10px;
+}.bottomspacer{
+	padding:20px;
+}
 #siteCover {
 	background-image:url("../img/cover2.jpg");
 	background-size: cover;
