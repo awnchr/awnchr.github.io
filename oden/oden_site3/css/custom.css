@@ -118,6 +118,7 @@ section h1{
 	font-size: 40px;
 	letter-spacing: 0px;
 }
+
 #company .tr{
 	margin-top: 20px;
 	line-height: 1.8em;
@@ -146,6 +147,7 @@ section h1{
 
 .content-block{
 	background: transparent;
+	margin-left:150px; 
 	padding: 30px 0px;
 }
 .service-block{
