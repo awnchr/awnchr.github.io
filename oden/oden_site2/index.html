@@ -57,20 +57,13 @@
 			</div>
 		</nav>
 
-		<div class="spacer"></div>
-		<div class="spacer"></div>
-
 		<!-- SITE COVER-->
 		<div id="slider">
-			<div class="container">
-				<div class="col-md-12">
 					<div id="siteCover">
 						<section>
 							<h1></h1>
 						</section>
 					</div>
-				</div>
-			</div>
 		</div>
 		<div class="bottomspacer"></div>
 
@@ -94,6 +87,17 @@
 		</div>
 		<div class="bottomspacer"></div>
 		<hr width="30%">
+
+		<!-- SITE COVER 2-->
+		<div class="topspacer"></div>
+		<div id="slider">
+					<div id="siteCover2">
+						<section>
+							<h1></h1>
+						</section>
+					</div>
+		</div>
+		<div class="bottomspacer"></div>
 
 
 		<!-- SERVICE -->
@@ -139,6 +143,18 @@
 		</div>
 		<div class="bottomspacer"></div>
 		<hr width="30%">
+
+
+		<!-- SITE COVER 3-->
+		<div class="topspacer"></div>
+		<div id="slider">
+					<div id="siteCover3">
+						<section>
+							<h1></h1>
+						</section>
+					</div>
+		</div>
+		<div class="bottomspacer"></div>
 
 
 		<!-- COMPANY PROFILE-->
@@ -195,8 +211,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="bottomspacer"></div>
-
 
 		<!-- FOOTER -->
 		<div class="topspacer"></div>
@@ -233,8 +247,8 @@
 		<script src="js/custom.js"></script>
 		<script type="text/javascript">
 		  $('a[href^=#]').click(function(){
-			var headH = 90; /*リンク位置の微調整。アンカーつけた場所から100pxだけ上に移動*/
-    		var speed = 800;
+			var headH = 100; /*リンク位置の微調整。アンカーつけた場所から100pxだけ上に移動*/
+    		var speed = 1500;
     		var href= $(this).attr("href");
     		var target = $(href == "#" || href == "" ? 'html' : href);
     		var position = target.offset().top-headH;
