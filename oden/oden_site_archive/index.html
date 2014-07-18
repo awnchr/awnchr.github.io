@@ -19,33 +19,49 @@
 	<body>
 
 		<!-- HEADER -->
+		<!-- 
 		<header id="main-header">
+			<div class="container">
 				<div class="row">
+					<div class="col-md-3 spacer"></div>
 					<div class="col-md-12">
-						<div id="logo"><a href="#statement">Oden.</a></div>
+						<div id="logoContainer">
+							<div id="logo"><a href="./index.html">Oden.</a></div>
+						</div>
 					</div>
+					<div class="col-md-3 spacer"></div>
 				</div>
+			</div>
 		</header>
+		-->
 
 		<!-- NAVIGATION -->
-		<div id="sidebar">
+		
+		<nav id="main-nav">
+			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-								<ul>
+						<div class="navbar navbar-default" role="navigation">
+							<div class="navbar-collapse collapse">
+								<ul class="nav navbar-nav nav-justified">
+									<li id="logo" class="logo"><a href="#statement">Oden.</a></li>
 									<li><a href="#service">SERVICE / PRODUCTS</a></li>
 									<li><a href="#company">COMPANY PROFILE</a></li>
 									<li><a href="#access">ACCESS</a></li>
 								</ul>
+							</div>
+						</div>
+
 					</div>
 				</div>
-		</div>
-
+			</div>
+		</nav>
 
 		<!-- SITE COVER-->
 		<div id="slider">
 					<div id="siteCover">
 						<section>
-							<h1></h1>
+							<h1>Oden, for what it's worth.</h1>
 						</section>
 					</div>
 		</div>
@@ -71,17 +87,6 @@
 		</div>
 		<div class="bottomspacer"></div>
 		<hr width="30%">
-
-		<!-- SITE COVER 2-->
-		<div class="topspacer"></div>
-		<div id="slider">
-					<div id="siteCover2">
-						<section>
-							<h1></h1>
-						</section>
-					</div>
-		</div>
-		<div class="bottomspacer"></div>
 
 
 		<!-- SERVICE -->
@@ -127,18 +132,6 @@
 		</div>
 		<div class="bottomspacer"></div>
 		<hr width="30%">
-
-
-		<!-- SITE COVER 3-->
-		<div class="topspacer"></div>
-		<div id="slider">
-					<div id="siteCover3">
-						<section>
-							<h1></h1>
-						</section>
-					</div>
-		</div>
-		<div class="bottomspacer"></div>
 
 
 		<!-- COMPANY PROFILE-->
@@ -195,6 +188,8 @@
 				</div>
 			</div>
 		</div>
+		<div class="bottomspacer"></div>
+
 
 		<!-- FOOTER -->
 		<div class="topspacer"></div>
@@ -231,8 +226,8 @@
 		<script src="js/custom.js"></script>
 		<script type="text/javascript">
 		  $('a[href^=#]').click(function(){
-			var headH = 50; /*リンク位置の微調整。アンカーつけた場所から100pxだけ上に移動*/
-    		var speed = 1500;
+			var headH = 90; /*リンク位置の微調整。アンカーつけた場所から100pxだけ上に移動*/
+    		var speed = 800;
     		var href= $(this).attr("href");
     		var target = $(href == "#" || href == "" ? 'html' : href);
     		var position = target.offset().top-headH;
