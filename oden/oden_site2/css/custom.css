@@ -57,23 +57,17 @@ p {
 	padding:100px;
 }
 #siteCover {
-	background-image:url("../img/cover3.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	min-height:1000px;
-}
-#siteCover2 {
-	background-image:url("../img/cover2.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	min-height:1000px;
-}
-#siteCover3 {
-	background-image:url("../img/cover.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	min-height:1000px;
-}
+	background-image:url("../img/cover4.jpg");
+	background-size: cover;
+	background-position:center center;
+	margin-top: 60px;
+	z-index: 1;
+	position: relative;
+	height:320px;
+	max-height: 460px;
+	max-width: 100%;
+	overflow: hidden;
+¸}
 #company .tr{
 	margin-top: 20px;
 	line-height: 1.8em;
