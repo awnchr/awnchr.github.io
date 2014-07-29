@@ -59,11 +59,12 @@ p {
 #siteCover {
 	background-image:url("../img/cover3.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-position:center center;
 	margin-top: 60px;
 	z-index: 1;
+	height:1000px;
 	position: relative;
-	max-height: 460px;
 	overflow: hidden;
 ¸}
 #company .tr{
@@ -144,6 +145,9 @@ lass*="animate-"] .overlay {
 #nav-menu-3{
 	float: right;
 	margin-right:30px;
+}
+.navbar-brand{
+	margin-left:0px;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
 	color: #3db4cc;
