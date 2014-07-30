@@ -55,7 +55,7 @@ p {
 	padding:100px;
 }
 #siteCover {
-	background-image:url("../img/cover3.jpg");
+	background-image:none;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position:center center;
