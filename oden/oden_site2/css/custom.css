@@ -99,14 +99,6 @@ div#statement h2, div#statement p{
 	background: transparent;
 	padding: 30px 0px;
 }
-.content-block .col-md-4{
-	min-width:300px;
-	max-width:300px;
-}
-.content-block .col-md-8{
-	padding:auto;
-	min-width:200px;
-}
 .service-block{
 	background: transparent;
 	padding: 30px 0px;
