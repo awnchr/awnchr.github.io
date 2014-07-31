@@ -97,7 +97,7 @@ div#statement h2, div#statement p{
 }
 .content-block{
 	background: transparent;
-	padding: 30px 0px;
+	padding-top: 30px;
 }
 .content-block .col-md-4{
 	min-width:300px;
